@@ -1,14 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "sprints": [
+    {
+      "name": "Sprint #1",
+      "duration": "[Jan 1 - Jan 15]",
+      "tickets": {
+        "new": ["#4 - Logout"],
+        "inProgress": ["#3 - Dashboard Page"],
+        "done": ["#1 - Sign Up Page", "#2 - Login Page"]
+      }
+    },
+    {
+      "name": "Sprint #2",
+      "duration": "[Jan 15 - Jan 31]",
+      "tickets": {
+        "new": ["#8 - List of Songs"],
+        "inProgress": ["#7 - List of Contracts"],
+        "done": ["#5 - List of Account", "#6 - List Of Account Group"]
+      }
+    }
+  ]
 }
